@@ -1,0 +1,28 @@
+*{
+	margin:0;
+	padding:0;
+	overflow-x: hidden;
+	overflow-y: hidden;
+
+}
+.options{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	height: 50px;
+	background: #606060;
+	position: absolute;
+	bottom: 50px;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	z-index: 2;
+	border-radius: 10px;
+	box-shadow: 0 0 16px #606060;
+	color: #fff;
+}
+li{
+	float: left;
+	margin: 0 20px;
+}
